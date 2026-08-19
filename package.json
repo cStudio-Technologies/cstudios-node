@@ -1,0 +1,32 @@
+{
+  "name": "cstudios",
+  "version": "1.0.0",
+  "description": "Official Node.js & TypeScript SDK for cStudios Indian Verification & Data APIs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "cstudios",
+    "verification-api",
+    "kyc-api",
+    "india-api",
+    "rto-api",
+    "upi-verify",
+    "ifsc-lookup",
+    "gstin-verification",
+    "pincode-lookup"
+  ],
+  "author": "cStudios Technologies <contact@cstudio.sbs>",
+  "license": "MIT",
+  "homepage": "https://www.cstudio.sbs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cStudio-Technologies/cstudios-node.git"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
